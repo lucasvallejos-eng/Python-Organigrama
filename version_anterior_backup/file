@@ -1,0 +1,16 @@
+graph {
+	graph [layout=dot]
+	node [fillcolor=Sienna regular=True shape=box style=filled]
+	"Burger King" [group="groupBurger King"]
+	"Burger King0" [constraint=false group="groupBurger King" height=0.01 shape=point width=0.01]
+	"Burger King" -- "Burger King0"
+	"Gerente G" [group="groupBurger King"]
+	"Burger King0" -- "Gerente G"
+	"Gerente G" [group="groupGerente G"]
+	"Gerente G0" [constraint=false group="groupGerente G" shape=point]
+	"Gerente G" -- "Gerente G0"
+	"Gerente G0" -- "Gerente M"
+	"Gerente G0" -- "Gerente L"
+	"Gerente G0" -- "Gerente P"
+	"Gerente G0" -- "Gerente F"
+}

@@ -1,0 +1,7 @@
+graph {
+	graph [layout=dot]
+	node [fillcolor="#d6cbcb" fontcolor=black fontname="Times New Roman" regular=True shape=box style=filled]
+	"Gerente General" [group="groupGerente General"]
+	"Gerente General0" [constraint=false group="groupGerente General" shape=point]
+	"Gerente General" -- "Gerente General0"
+}
